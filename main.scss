@@ -42,6 +42,7 @@ header{
 
     }
     p{
+        margin-top: .5rem;
         font-size: rem(15);
         text-align: center;
         color: $grayishBlue;
@@ -50,15 +51,83 @@ header{
 }
 
 .grid-description{
-    border: 1px solid red;
+    // border: 1px solid red;
     margin:auto;
-    width: 80%;
-    height: rem(650);
+    margin-top: 4rem;
+    width: 90%;
+    height: rem(600);
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem;
+
 
         .column{
-            
-            border: 1px solid blue;
+            // border: 1px solid blue;
+            height: 100%;
+            &:nth-child(1),&:nth-child(3){
+                align-content: center;
+            }
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+
         }
+        .grid-supervisor{
+            border-top: $cyan 5px solid;
+        }
+        .grid-team-builder{
+            border-top: $red 5px solid;
+            gap: 1rem;
+
+        }
+        .grid-karma{
+            border-top: $orange 5px solid;
+        }
+        .grid-calculator{
+            border-top: $blue 5px solid;
+        }
+        .grid-item{
+            width: 100%;
+            height: rem(250);
+            box-shadow: -1px 8px 39px -9px rgba(0,0,0,0.75);
+            border-radius: .5rem;
+            position: relative;
+
+            h1{
+                color: $darkBlue;
+                width: 80%;
+                margin:auto;
+                font-size: 1.5rem;
+                margin-top: rem(30);
+            }
+            p{
+                color: $grayishBlue;
+                width: 80%;
+                margin:auto;
+                padding-top: .6rem;
+            }
+
+            img{
+                position: absolute;
+                width: 4rem;
+                height: 4rem;
+                
+                right: 1.5rem;
+                bottom: 1.5rem;
+                
+            }
+        }
+
+
+}
+
+@media(max-width:1277) and (max-height: 860){
+
+    .grid-description{
+        height: rem(400);
+    }
+    
 }
