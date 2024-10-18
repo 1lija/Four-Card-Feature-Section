@@ -54,7 +54,7 @@ header{
     margin:auto;
     margin-top: 4rem;
     width: 90%;
-    height: rem(550);
+    height: rem(530);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
@@ -75,18 +75,18 @@ header{
 
         }
         .grid-supervisor{
-            border-top: $cyan 5px solid;
+            border-top: $cyan 7px solid;
         }
         .grid-team-builder{
-            border-top: $red 5px solid;
+            border-top: $red 7px solid;
             gap: 1rem;
 
         }
         .grid-karma{
-            border-top: $orange 5px solid;
+            border-top: $orange 7px solid;
         }
         .grid-calculator{
-            border-top: $blue 5px solid;
+            border-top: $blue 7px solid;
         }
         .grid-item{
             width: 100%;

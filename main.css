@@ -36,7 +36,7 @@ header p {
   margin: auto;
   margin-top: 4rem;
   width: 90%;
-  height: 34.375rem;
+  height: 33.125rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.3rem;
@@ -53,17 +53,17 @@ header p {
   justify-content: space-between;
 }
 .grid-description .grid-supervisor {
-  border-top: hsl(180, 62%, 55%) 5px solid;
+  border-top: hsl(180, 62%, 55%) 7px solid;
 }
 .grid-description .grid-team-builder {
-  border-top: hsl(0, 78%, 62%) 5px solid;
+  border-top: hsl(0, 78%, 62%) 7px solid;
   gap: 1rem;
 }
 .grid-description .grid-karma {
-  border-top: hsl(34, 97%, 64%) 5px solid;
+  border-top: hsl(34, 97%, 64%) 7px solid;
 }
 .grid-description .grid-calculator {
-  border-top: hsl(212, 86%, 64%) 5px solid;
+  border-top: hsl(212, 86%, 64%) 7px solid;
 }
 .grid-description .grid-item {
   width: 100%;
