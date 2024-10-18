@@ -36,7 +36,7 @@ header p {
   margin: auto;
   margin-top: 4rem;
   width: 90%;
-  height: 37.5rem;
+  height: 34.375rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.3rem;
